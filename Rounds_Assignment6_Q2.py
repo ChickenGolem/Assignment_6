@@ -21,7 +21,6 @@ class Circle(Shape):
         super().__init__(radius)
     
     def area(self):
-        print("bo")
         return math.pi * (self.side ** 2)
         
     def perimeter(self):
